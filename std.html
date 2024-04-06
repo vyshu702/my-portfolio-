@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      max-width: 100%;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 5px;
+      margin-bottom: -20px;
+      margin-top: -40px;
+    }
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px black;
+    }
+    .m{
+      height: 150px;
+      width: 200px;
+    }
+    .n{
+      height: 150px;
+      width: 200px;
+    }
+    .k{
+      height: 350px;
+      width: 550px;
+      margin-left: 100px;
+    }
+    .L{
+      height: 80px;
+      width: 80px;
+    }
+    section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    h1{
+      font-size: 60px;
+      animation: Name 1s ease-in-out 0s 1 normal;
+    }
+    
+    @keyframes Name{
+      from{width:700px;}
+      to{width: 1500px;}
+    }
+    h1, h2, p {
+      margin-bottom: 5px;
+    }
+    nav ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+      animation: New 0.8s linear 0s 1 normal;
+    }
+    @keyframes New{
+      from{width:0px;}
+      to{width: 72px;}
+    }
+    nav ul li a{
+      color:white;
+      text-decoration: none;
+      font-size: 18px;
+      position: relative;
+    }
+    nav ul a::after{
+      content: '';
+      width: 100%;
+      height: 3px;
+      background:white;
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      transition: 0.5s;
+    }
+    nav ul li a:hover::after{
+      width: 70%;
+      background-color: red;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin: 0 5px;
+      background-size: initial;
+    }
+    .social-icons a:hover{
+      transform: scale(1.1);
+      background-color: rgb(16, 186, 233);
+    }
+  
+    .i { 
+      color: black;
+      font-size: 20px;
+      padding-top: -80px;
+      font-size: 20px;
+    }
+  
+    .L {
+      color: black;
+      font-size: 20px;
+      margin-top: -80px;
+    } 
+  
+    .G {
+      color: black;
+      font-size: 20px;
+      margin-left: -10px;
+    }
+
+    .Li{
+      height: 35px;
+      width: 40px;
+      margin-bottom: -30px;
+      padding-bottom: 20px;
+    }
+    .Gi{
+      height: 40px;
+      width: 65px;
+      margin-left: -10px;
+      padding-bottom: 20px;
+      margin-bottom: -33px;
+      padding-top: 20px;
+    }  
+    .Le{
+      height: 50px;
+      width: 55px;
+      margin-bottom: -20px;
+      padding-top: 18px;
+    }
+    .Co{
+      height: 50px;
+      width: 55px;
+      margin-bottom: -20px;
+      padding-top: 18px;
+    }
+    .Ha{
+      height: 50px;
+      width: 55px;
+      margin-bottom: -21px;
+      padding-top: 22px;
+    }
+    .python{
+      width: 100px;
+      height: 100px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+    }
+    .html{
+      width: 130px;
+      height: 120px;
+      padding-right: 10px;
+    }
+    .css{
+      width: 150px;
+      height: 120px;
+      padding-right: 10px;
+    }
+    .sql{
+      width: 120px;
+      height: 120px;
+      padding-right: 15px;
+    }
+    .javascript{
+      width: 150px;
+      height: 120px;
+    }
+    .copyright h1{
+      color: white;
+
+    }
+    
+    .copyright{
+      width: 100%;
+      text-align: center;
+      padding: 25px 0;
+      background: #262626;
+      font-weight: 300;
+      margin-top: 20px; 
+    }
+
+    footer {
+      background-color: #333;
+      text-align: center;
+      height: 180px;
+      width: 100%;
+      padding-top: -15px;
+    }
+    .NRCM{
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      padding-top: 20px;
+    }
+    .NRCM img{
+      width: 35px;
+      height: 35px;
+      transition: transform 0.2s ease-in-out;
+      padding-right: 20px;
+    }
+    a:hover img {
+      transform: scale(1.5);
+    }
+    .logo {
+      width: 1525px;
+      height: 70px;
+      padding-right: 600px;
+      margin-top: 5px;
+    }
+
+    .location {
+      font-size: 16px;
+      margin-bottom: 5px;
+      padding-top: 5px;
+    }
+    .location a:hover{
+      transform: scale(1);
+      background-color: white;
+    }
+    .contact a:hover{
+        transform: scale(2.1);
+        background-color: rgb(16, 186, 233);
+      }
+    .Certificates a:hover{
+      transform: scale(2.1);
+      background-color: rgb(16, 186, 233);
+    }
+    .Internship a:hover{
+      transform:scale(2);
+      background-color: rgb(16, 186, 233); 
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Samala Vyshnavi Netha</h1>
+    <nav>
+      <ul id="sidemenu">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Internship">Internship</a></li>
+          <li><a href="#Certificates">Certificates</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Social Media">SocialMedia</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <img src="https://live.staticflickr.com/65535/53533950002_5d65075ecf.jpg" class="k">
+    <p>
+      <b>Hello..!</b> I am a passionate and motivated student with a keen interest in Web Development. This is a brief introduction about me and my academic journey.
+    </p>
+  </section>
+
+  <section class="Internship">
+    <h2>Interships</h2>
+    <h4>click for more information</h4>
+    <p><b>Internship 1 :</b><a href="https://oasisinfobyte.com/" target="_blank">Oasisinfobyte</a></p>
+      <img src="https://tse1.mm.bing.net/th?id=OIP.nDz0YlZb8uq4fkxzfoBddAAAAA&pid=Api&P=0&h=180" class="m"> 
+      <p>During my internship at Oasis Infobyte, I gained experience in web development.I learnt skills like HTML and CSS. Gianed knowledge by working on real wrold project by creating webpages.</p>
+      <p><b>Internship 2 :</b><a href="https://codeclause.com/" target="_blank">Code Clause</a></p>
+      <img src="https://pbs.twimg.com/profile_images/1593452207755890688/1Gb7dgyb_400x400.png" class="n">
+      <p>In Code Clause internship ,I enhanced my web development skills, contributing to projects. Collaborated with a talented team, gaining valuable experience in real-world web development practices.</p>
+  </section>
+
+  <section class="Certificates">
+    <h2>Certificates</h2>
+    <p><b>1 : </b><a href="https://i.imgur.com/CMxkBy8_d.jpg?maxwidth=520&shape=thumb&fidelity=high" target="_blank">certificate</a></p>
+    <p>Oasisinfobyte internship completion certificate</p>
+    <p><b>2 : </b><a href="https://i.imgur.com/fbbPY5O_d.jpg?maxwidth=520&shape=thumb&fidelity=high" target="_blank">LOR</a></p>
+    <p>Letter Of Recommendation from Code Clause</p>
+    <p><b>3 : </b><a href="https://i.imgur.com/VS0eoe5_d.jpg?maxwidth=520&shape=thumb&fidelity=high" target="_blank">Web Development</a></p>
+    <p>Web Development course Completion certificate from Solo Learn</p>
+    <p><b>4 : </b><a href="https://i.imgur.com/ZN12ANc_d.jpg?maxwidth=520&shape=thumb&fidelity=high" target="_blank">Introduction to python</a></p>
+    <p>python course Completion certificate from Perfect E learning</p>
+    <p><b>3 : </b><a href="https://i.imgur.com/5rLS0nA_d.jpg?maxwidth=520&shape=thumb&fidelity=high" target="_blank">Python </a></p>
+    <p>python course Completion certificate from Solo Learn</p>
+  </section>
+
+  <section id="Skills">
+    <h2>Skills</h2>
+      <img src="https://tse1.mm.bing.net/th?id=OIP.scZtKzM0T-sPYZxYBAJvRAAAAA&pid=Api&P=0&h=180" class="python">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.QQUTcBAmVvxoiZ0CRJy5rwHaHa&pid=Api&P=0&h=180" class="html">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.yUIb5S_kj98Eg5tT-Onx1AHaHa&pid=Api&P=0&h=180" class="css">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.A1NeLedXmlhb7at1_Z9xbgHaE7&pid=Api&P=0&h=180" class="javascript">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.-UxRkS1XKkPRaBTG5aGVSAHaHa&pid=Api&P=0&h=180" class="sql">
+  </section>
+
+  <section id="Social Media">
+    <h2>Social Media</h2>
+    <h4>you can follow me here</h4>
+    <div class="social-icons">
+      <p><img src="https://tse1.mm.bing.net/th?id=OIP.DgVNhFcvWWSCxJpVWsry4wAAAA&pid=Api&P=0&h=180" class="Li">
+      <b>Linkedlin:</b><a href="http://linkedin.com/in/vyshnavi-netha-samala-291632256/"target="_blank">http://linkedin.com/in/vyshnavi-netha-samala-291632256</a></p>
+      <p><img src="https://tse1.mm.bing.net/th?id=OIP.eTCbdR_AFzbqHMPXhrJWUQHaEK&pid=Api&P=0&h=180" class="Gi">
+      <b>Github:</b><a href="https://github.com/vyshu702"target="_blank">https://github.com/vyshu702</a></p>
+      <p><img src="https://www.yoreoyster.com/wp-content/uploads/2021/06/LeetCode-Review.png" class="Le">
+      <b>Leetcode:</b><a href="https://leetcode.com/chikky_702/"target="_blank">https://leetcode.com/chikky_702</a></p>
+      <p><img src="https://tse4.mm.bing.net/th?id=OIP.keoe97nCBfZfzyvakzMdIwAAAA&pid=Api&P=0&h=180" class="Co">
+      <b>CodeChef:</b><a href="https://www.codechef.com/users/samalavyshnavi"target="_blank">https://www.codechef.com/users/samalavyshnavi</a></p>
+      <p><img src="https://tse4.explicit.bing.net/th?id=OIP.yEcWe5hH4TFOtZ_vrfxgQAAAAA&pid=Api&P=0&h=180" class="Ha">
+      <b>Hackerranker:</b><a href="https://www.hackerrank.com/profile/samalavyshnavin1"target="_blank">https://www.hackerrank.com/profile/samalavyshnavin1</a></p>
+    </div>
+  </section>
+
+  <section id="Contact">
+    <h2>Contact</h2>
+    <h4>Feel free to reach out to me via email</h4>
+    <div class="contact">
+      <p><b>E-mail:</b>
+        <a href="https://mail.google.com/mail/u/0/#inbox"target="_blank" >samalavyshnavinetha@gmail.com</a>
+      </p>
+    </div>
+  </section>
+
+
+<footer>
+    <img src="https://www.facultyplus.com/wp-content/uploads/2021/12/NRCM-Logo-scaled.jpg"class="logo">
+    <div class="NRCM">
+      <a href="https://www.nrcmec.org/" target="_blank">
+        <img src="https://yt3.ggpht.com/a/AATXAJyDuzdDO0GFwPohR7_8P1isoDhsGKCMdC59iQ=s900-c-k-c0xffffffff-no-rj-mo" alt="Clickable Image">
+      </a>
+      <a href="https://www.instagram.com/narsimhareddycollege_nrcm?igsh=YnlibG8zaHY4dzN2" target="_blank">
+        <img src="https://qph.cf2.quoracdn.net/main-thumb-t-23349-100-mdfldlqurwkxqhwnjkqlmdsfsmhfrnmh.jpeg" alt="Clickable Image">
+      </a>
+      <a href="https://www.linkedin.com/in/narsimhareddyengineeringcollege-nrcm?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.DgVNhFcvWWSCxJpVWsry4wAAAA&pid=Api&P=0&h=180" alt="Clickable Image">
+      </a>
+    </div>
+    <div class="location">
+      <a href="https://maps.app.goo.gl/jDiu5bqZ8eQ5orxT7" target="_blank">Maiasammaguda|Dhulapally|Medchal|Secundrabad|Telangana|INDIA</a>
+    </div>
+    
+</footer>
+
+</body>
+</html>
